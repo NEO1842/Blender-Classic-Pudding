@@ -7,7 +7,7 @@
 </p>
 <div align="center">
 <a href="Blender%20Classic%20Pudding%20Scene/Classic%20Pudding%20Scene.png">
-<img src="Blender%20Classic%20Pudding%20Scene/Classic%20Pudding%20Scene.png" width="600">
+<img src="Blender%20Classic%20Pudding%20Scene/Classic%20Pudding.png" width="600">
 </a>
 </div>
 
@@ -51,8 +51,8 @@ This project is licensed under the MIT License.
 ---日本語--- 画像をクリックすると画像ファイルが表示されます。
 </p>
 <div align="center">
-<a href="Blender%20Classic%20Pudding%20Scene/Classic%20Pudding%20Scene.png">
-<img src="Blender%20Classic%20Pudding%20Scene/Classic%20Pudding%20Scene.png" width="600">
+<a href="Blender%20Classic%20Pudding%20Scene/Classic%20Pudding.png">
+<img src="Blender%20Classic%20Pudding%20Scene/Classic%20Pudding.png" width="600">
 </a>
 </div>
 
