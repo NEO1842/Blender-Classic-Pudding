@@ -32,8 +32,8 @@ Blender Version 3.4
 Engine: Cycles
 Sampling: 1024
 Denoising: Enabled
-Original Inspiration: Mdesign
-Tutorial: https://www.youtube.com/watch?v=Vtz1E0xwCm8
+Original Inspiration: Yuki's blender school
+Tutorial: https://www.youtube.com/watch?v=3eCuUMyVU90
 Author: [ NEO1842 ]
 
 # Terms of Use
@@ -77,8 +77,8 @@ Blender バージョン3.4
 レンダリングエンジン：Cycles
 サンプリング数：1024
 ノイズ除去：あり
-元のインスピレーション：Mdesign
-チュートリアル：https://www.youtube.com/watch?v=Vtz1E0xwCm8
+元のインスピレーション：Yuki's blender school
+チュートリアル：https://www.youtube.com/watch?v=3eCuUMyVU90
 著者: [ NEO1842 ]
 
 # 利用規約
