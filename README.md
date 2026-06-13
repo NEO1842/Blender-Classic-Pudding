@@ -6,8 +6,8 @@
 ---English--- Click on the image to display the image file.
 </p>
 <div align="center">
-<a href="Blender%20Classic%20Pudding%20Scene/Classic%20Pudding%20Scene.png">
-<img src="Blender%20Classic%20Pudding%20Scene/Classic%20Pudding.png" width="600">
+<a href="Blender%20Classic%20Pudding%20Scene/Classic Pudding%20Scene.png">
+<img src="Blender%20Classic%20Pudding%20Scene/Classic Pudding.png" width="600">
 </a>
 </div>
 
