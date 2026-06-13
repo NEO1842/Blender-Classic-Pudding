@@ -1,0 +1,65 @@
+name: Bug Report / バグ報告
+description: Report a bug or rendering issue / バグやレンダリングの問題を報告する
+title: "[BUG] "
+labels: ["bug"]
+assignees: ["NEO1842"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug / 問題の説明
+      description: A clear description of what the bug is. / 問題の内容を明確に説明してください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 再現手順
+      description: Steps to reproduce the behavior. / 問題を再現する手順を記載してください。
+      placeholder: |
+        1. Open the .blend file
+        2. ...
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior / 期待される動作
+      description: What you expected to happen. / 本来どうなるべきかを記載してください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / スクリーンショット
+      description: If applicable, add screenshots. / 可能であればスクリーンショットを添付してください。
+    validations:
+      required: false
+
+  - type: input
+    id: blender_version
+    attributes:
+      label: Blender Version / Blenderバージョン
+      placeholder: "e.g. 3.4"
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: "e.g. Windows 11, macOS 14"
+    validations:
+      required: true
+
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU
+      placeholder: "e.g. NVIDIA RTX 3080"
+    validations:
+      required: false
