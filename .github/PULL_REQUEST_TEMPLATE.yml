@@ -1,0 +1,48 @@
+name: Pull Request
+description: Submit a pull request / プルリクエストを送る
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary / 概要
+      description: Briefly describe what this PR does. / このPRで何を変更したか簡潔に説明してください。
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: type
+    attributes:
+      label: Type of change / 変更の種類
+      options:
+        - label: Bug fix / バグ修正
+        - label: New feature / 新機能
+        - label: Improvement / 改善
+        - label: Other / その他
+
+  - type: textarea
+    id: changes
+    attributes:
+      label: Changes / 変更内容
+      description: List the changes made. / 変更内容を箇条書きで記載してください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / スクリーンショット
+      description: Before/after screenshots if applicable. / 変更前後のスクリーンショットがあれば添付してください。
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist / チェックリスト
+      options:
+        - label: Tested in Blender 3.4 / Blender 3.4で動作確認済み
+          required: true
+        - label: No unintended changes to other parts / 他の部分に意図しない変更がない
+          required: true
+        - label: Description is clear / 説明が明確である
+          required: true
