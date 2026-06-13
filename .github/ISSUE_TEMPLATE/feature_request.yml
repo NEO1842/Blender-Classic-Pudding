@@ -1,0 +1,37 @@
+name: Feature Request / 機能リクエスト
+description: Suggest an idea or improvement / アイデアや改善提案
+title: "[FEATURE] "
+labels: ["enhancement"]
+assignees: ["NEO1842"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary / 概要
+      description: A brief summary of your suggestion. / 提案の概要を簡潔に記載してください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation / 理由
+      description: Why would this be useful? / なぜこの改善が有益だと思いますか？
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution / 提案する解決策
+      description: Describe how you'd like it to work. / どのように実現したいかを説明してください。
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context / 補足
+      description: Any other context or screenshots. / その他の情報やスクリーンショットがあれば添付してください。
+    validations:
+      required: false
